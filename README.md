@@ -128,7 +128,14 @@ git pull origin main
 git merge dev
 ```
 
-### 4️⃣ Push the merged code to remote main
+### 4️⃣ Resolve any merge conflicts (if prompted)
+- Open the conflicted files.
+- Edit them to resolve the conflicts.
+```
+git add <filename>
+```
+
+### 5️⃣ Push the merged code to remote main
 ```
 git push origin main
 ```
