@@ -110,6 +110,11 @@ git checkout dev
 git push -u origin dev
 ```
 
+## 📝 To Pull a Repository and remove my local code
+```
+git reset --hard origin/main
+```
+
 
 ## 📝 Merge one branch to another (Suppost you want to merge Dev to Main Branch)
 
